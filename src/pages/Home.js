@@ -8,15 +8,17 @@ import logo from '../images/JC.png'
 function Home(){
   return(
     <React.Fragment>
-      <div className="Badges__hero">
-        <div className="Badges__container col-6">
-          <img className="img-fluid" src={logo} alt="logo"></img>
-          <h2>Bienvenidos</h2>
-          <p>Sitio de aprendizaje</p>
-          <Link to="/badges" className="btn btn-primary">Ver ahora</Link>
-        </div>
-        <div className="Badges__container col-6">
-          <img className="img-fluid" src={logo} alt="logo"></img>
+      <div className="Home__hero">
+        <div className="container Home__container">
+          <div className="col-6">
+            <img className="img-fluid" src={logo} alt="logo"></img>
+          </div>
+          <div className="col-6">
+            <h2>Bienvenidos</h2>
+            <p>Sitio de aprendizaje</p>
+            <Link to="/badges" className="btn btn-primary">Ver ahora</Link>
+          </div>
+
         </div>
       </div>
 
