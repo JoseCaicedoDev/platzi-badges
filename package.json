@@ -2,7 +2,7 @@
   "name": "platzi-badges",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://josecaicedodev.github.io/badges",
+  "homepage": "http://josecaicedodev.github.io/platzi-badges",
   "scripts": {
     "start": "npm-run-all -p client server",
     "client": "react-scripts start",
@@ -12,7 +12,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "clean" : "gh-pages-clean"
+
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
